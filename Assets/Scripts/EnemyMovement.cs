@@ -10,7 +10,7 @@ public class EnemyMovement : MonoBehaviour
     private bool _isMovingLeft;
 
 
-    void Update()
+    private void Update()
     {
         if (_isMovingLeft)
         {
